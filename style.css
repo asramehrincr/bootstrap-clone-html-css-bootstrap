@@ -1,0 +1,434 @@
+.home-container {
+    background:
+        linear-gradient(45deg, rgba(202, 233, 245, 0.5), rgba(254, 180, 123, 0.5)),
+        /* Top-left to bottom-right gradient */
+        linear-gradient(135deg, rgba(123, 224, 255, 0.5), rgba(229, 231, 165, 0.5));
+    /* Bottom-left to top-right gradient */
+    background-blend-mode: overlay;
+    /* Blend the gradients together */
+}
+hr.vertical-line {
+    border: none;
+    border-left: 1px solid black; /* Adjust color and thickness as needed */
+    height: 100%; /* Adjust height as needed */
+  }
+
+.navbar-nav li a{
+    color: rgb(55, 55, 55);
+}
+/*  */
+.navbar-background{
+    background-color: blueviolet;
+}
+.navbar-sections{
+    margin-left:350px;
+}
+.search-menu{
+    margin-left: 100px;
+}
+.nav-item i{
+    color: rgb(56, 53, 53);
+}
+
+.bd-navbar .offcanvas-lg {
+    background-color:violet;}
+
+.icon-search::placeholder {
+    font-family: 'bootstrap-icons'; /* Bootstrap Icons font family */
+    content: "\f002"; /* Unicode of the search icon */
+    font-size: 1.2rem; /* Adjust icon size as needed */
+    padding-left: 2rem; /* Adjust padding to accommodate the icon */
+}
+.update-content {
+    /* background-color: rgb(232, 192, 105); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-content-div {
+    background-color: rgb(229, 202, 138);
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 36px;
+}
+
+.update-content-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.bootstrap-img {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+
+.bootstrap-img img {
+    width: 230px;
+}
+
+.title-content {
+    text-align: center;
+}
+
+.title-content h1 {
+    font-size: 60px;
+}
+
+.title-content p {
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* align-items: center; */
+}
+
+.buttons .button1 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons .npm {
+    background-color: rgb(160, 164, 164);
+    padding: 10px 60px;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.buttons .read-doc {
+    background-color: rgb(116, 36, 132);
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons .read-doc a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.versions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.versions p a {
+    color: rgb(101, 109, 101);
+    margin-left: 10px;
+}
+
+.figma-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.figma-container .figma-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    background-color: rgb(191, 205, 200);
+    padding: 10px;
+}
+
+.figma-img img {
+    width: 140px;
+}
+#offcanvasSearch .btn[type="submit"] {
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Removing any border */
+}
+section {
+    margin-top: 0px;
+}
+
+/* .installaction-container{
+   margin
+} */
+.box1 {
+    margin-top: 30px;
+}
+
+.arrow-logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arrow-logo-div {
+    background-color: rgb(241, 238, 238);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.arrow-logo-div i {
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 50px;
+}
+
+.cdn-div i {
+    font-size: 30px;
+}
+
+.installation-div i {
+    font-size: 30px;
+}
+
+.cdn-content h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cdn-content p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cdn-link {
+    text-align: center;
+}
+
+.cdn-link a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cdn-link:hover {
+    color: blue;
+}
+
+.scroll-box {
+    padding: 20px;
+    background-color: rgb(219, 236, 244);
+    ;
+    border-radius: 2px;
+    margin-bottom: 10px;
+
+}
+
+.scroll-container {
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevents line breaks */
+}
+
+.scroll-item {
+    /* background-color: black; */
+    display: inline-block;
+    /* Ensures items are in a line */
+    /* margin-right: 10px; */
+    text-align: left;
+    /* line-height: 100px; */
+    /* border: 1px solid #ddd; */
+}
+
+.guide-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.palette-logo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.palette-logo-div {
+    background-color: rgb(241, 238, 238);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.palette-logo-div i {
+    font-size: 40px;
+    color: blue;
+    font-weight: 50px;
+}
+
+.palatte-div p {
+    font-size: 20px;
+}
+
+.palatte-div a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row-contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.code-div {
+    background-color: rgb(219, 236, 244);
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 214, 214);
+}
+
+.braces-logo-div {
+    background-color: rgb(206, 139, 139);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.braces-logo-div i {
+    font-size: 40px;
+    color: rgb(123, 27, 57);
+    font-weight: 50px;
+}
+
+.components-div {
+    display: flex;
+}
+
+.plus-sign p {
+    font-size: 40px;
+    padding: 5px;
+}
+
+.menu-logo-div {
+    background-color: rgb(226, 175, 175);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.menu-logo-div i {
+    font-size: 40px;
+    color: rgb(173, 40, 45);
+    font-weight: 50px;
+}
+
+.star-logo-div {
+    background-color: rgb(164, 220, 236);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.star-logo-div i {
+    font-size: 40px;
+    color: rgb(79, 103, 208);
+    font-weight: 50px;
+}
+
+.example-demo {
+    border: 1px solid rgb(204, 198, 198);
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.scroll-box2 {
+    padding: 20px;
+    background-color: rgb(217, 237, 239);
+    ;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+
+
+}
+
+.plug-logo-div {
+    background-color: rgb(230, 209, 143);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.plug-logo-div i {
+    font-size: 40px;
+    color: rgb(222, 156, 64);
+    font-weight: 50px;
+}
+
+.feature-rows h4 {
+    font-size: 20px;
+}
+
+.feature-rows p {
+    color: grey;
+    font-size: 14px;
+}
+
+.person-col1 h1{
+    font-size: 50px;
+}
+.person-col1 p{
+    font-size: 20px;
+}
+.direction {
+    font-size: 20px;
+    font-weight: bold;
+}
+.person-logo-div {
+
+    background-color: rgb(161, 222, 204);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.person-logo-div i {
+
+    font-size: 30px;
+    color: rgb(25, 158, 89);
+    font-weight: 50px;
+}
+
+.drop-logo-div {
+
+    background-color: rgb(218, 238, 232);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.drop-logo-div i {
+
+    font-size: 30px;
+    color: rgb(121, 30, 186);
+    font-weight: 50px;
+}
+.about-div i{
+font-size: 30px;
+
+}
+.title-name {
+    display: flex ;
+    flex-wrap: wrap;
+}
+.title-name h2{
+    font-size:  30px;
+    margin-left: 20px;
+    
+}
+footer{
+    background-color: rgb(244, 249, 255);
+}
+.link-items  h3{
+    color: rgb(96, 95, 95);
+    font-size: 20px;
+}
+.link-items a{
+    color: black;
+    margin-top: 5px;
+}

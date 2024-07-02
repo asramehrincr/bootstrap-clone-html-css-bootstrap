@@ -1,0 +1,72 @@
+
+
+@media (max-width: 576px) {
+    .navbar-sections{
+        margin-left: 10px;
+    }
+    .search-menu{
+        margin-left: 10px;
+    }
+    .off-icons{
+        margin-right:0px;
+        /* background-color: pink ; */
+    }
+   
+    .img-part{
+        background-color: pink  ;
+    }
+    .update-content-div a{
+        padding:  3px 7px;
+        font-size: 12px;
+    }
+    .title-content h1{
+        font-size: 35px;
+    }
+    .buttons .button1{
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+    }
+    .buttons .npm{
+        background-color: rgb(160, 164, 164);
+        padding: 10px 60px;
+        margin-right: 10px;
+        color: black;
+        font-size: 15px;
+    }
+    .buttons .read-doc{
+        background-color: rgb(116, 36, 132);
+        /* padding: 15px 40px; */
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0px 10px;
+    }
+    .buttons .read-doc a{
+        justify-content: center;
+    }
+    .person-img img{
+        width: 350px;
+    }
+    
+ .navbar-toggler{
+    margin-left: 0px;
+ }
+}
+/* @media (min-width: 577px) and (max-width: 768px){
+
+} */
+@media (max-width: 992px){
+    .buttons .read-doc{
+        background-color: rgb(116, 36, 132);
+        padding: 15px 40px;
+        font-size: 15px;
+        font-weight: bold;
+        /* width: 100%; */
+        margin: 0px 25px;
+        
+    }
+    .person-img img{
+        width: 350px;
+    }
+}
